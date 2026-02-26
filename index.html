@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>Hello. This is my <strong>Header</strong></header>
+    <main>
+      <h1>Contact Us</h1>
+      <form action="formPost.html" method="get">
+        <fieldset>
+            <legend>Contact Information</legend>
+        <label for="username">Full Name:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <br />
+        <br />
+
+        <label for="radio"></label>
+        <input type="radio"
+          [id="radio1"]
+          [name="radio"]
+          [value="option1"]
+          checked="checked"
+        />
+        <label for="radio1">Yes</label>
+        <input type="radio" id="radio2" name="radio" value="option2" />
+        <label for="radio2">No</label>
+        <br> <br>
+
+        <label for="country"></label>
+        <select id="country" name="country">
+          <option value="freshmen">Freshmen</option>
+          <option value="Sophmore">Sophmore</option>
+          <option value="Junior">Junior</option>
+          <option value="Senior">Senior</option>
+          <br> <br>
+
+          <label for="range"></label>
+            <input type="range" id="range" name="range" min="1" max="5"/>
+            <p>1 = Boring, 5 = Awesome</p>
+
+            <label for="message"></label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br> <br>
+
+            <button>Submit</button>
+            <br> <br>
+      </form>
+   </fieldset>
+    </main>
+    <footer>Copyright &copy; All Rights Reserved.</footer>
+
+
+
+
+
+  </body>
+</html>
